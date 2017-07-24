@@ -1,0 +1,41 @@
+{
+  "name": "qub-telemetry-applicationinsights",
+  "version": "1.0.0",
+  "description": "A collection of common data structures and functions for creating telemetry for Microsoft's ApplicationInsights service",
+  "main": "output/ApplicationInsights",
+  "typings": "output/ApplicationInsights",
+  "files": [
+    "output/"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danschultequb/qub-typescript-telemetry-applicationinsights.git"
+  },
+  "keywords": [
+    "qub",
+    "applicationinsights",
+    "application insights",
+    "telemetry"
+  ],
+  "author": "Dan Schulte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danschultequb/qub-typescript-telemetry-applicationinsights/issues"
+  },
+  "homepage": "https://github.com/danschultequb/qub-typescript-telemetry-applicationinsights#readme",
+  "devDependencies": {
+    "@types/applicationinsights": "^0.15.33",
+    "@types/node": "8.0.13",
+    "typescript": "2.4.1"
+  },
+  "dependencies": {
+    "applicationinsights": "^0.21.0",
+    "qub": "1.2.6",
+    "qub-telemetry": "1.0.0"
+  }
+}
