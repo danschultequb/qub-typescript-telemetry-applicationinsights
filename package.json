@@ -1,6 +1,6 @@
 {
   "name": "qub-telemetry-applicationinsights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of common data structures and functions for creating telemetry for Microsoft's ApplicationInsights service",
   "main": "output/ApplicationInsights",
   "typings": "output/ApplicationInsights",
@@ -29,13 +29,13 @@
   },
   "homepage": "https://github.com/danschultequb/qub-typescript-telemetry-applicationinsights#readme",
   "devDependencies": {
-    "@types/applicationinsights": "^0.15.33",
-    "@types/node": "8.0.13",
-    "typescript": "2.4.1"
+    "@types/applicationinsights": "0.15.33",
+    "@types/node": "8.0.22",
+    "typescript": "2.4.2"
   },
   "dependencies": {
-    "applicationinsights": "^0.21.0",
-    "qub": "1.2.6",
-    "qub-telemetry": "1.0.0"
+    "applicationinsights": "0.21.0",
+    "qub": "1.4.0",
+    "qub-telemetry": "1.0.1"
   }
 }
